@@ -3,19 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="pragma" content="no-cache">
-    <title>Guess my number</title>
+    <title>Adivina mi número</title>
+    <!-- Building blocks -->
+    <link href="css/buildingblocks/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/buildingblocks/util.css" rel="stylesheet" type="text/css">
+    <link href="css/buildingblocks/style/input_areas.css" rel="stylesheet" type="text/css">
+    <link href="css/buildingblocks/style/buttons.css" rel="stylesheet" type="text/css">
+    <link href="css/buildingblocks/style/headers.css" rel="stylesheet" type="text/css">
+    <!-- End BB -->
     <script defer src="js/guessnumber.js"></script>
     <script defer src="js/uimanagement.js"></script>
   </head>
-  <body>
-    <h1>Guess my number</h1>
-    <p>I'm thinking a number between
-      <span id="min"></span> and <span id="max"></span>.
-    </p>
-    <p><b id="result"></b></p>
-    <p>You tried it <span id="tries"></span> times.</p>
-    <input id="number" type="number"></input>
-    <button id="newnumber">I guess this number</button>
-    <button id="newgame">Start new game</button>
+  <body bgcolor="#FFFFFF" role="application">
+    <section role="region">
+      <header>
+        <a href="#content" id="newgame"><span class="icon icon-add">add</span></a>
+        <h1>Adivina mi número</h1>
+      </header>
+      <p>Mi número está entre <span id="min"></span> y <span id="max"></span>.</p>
+      <p><b id="result"></b> Lo intentaste <span id="tries"></span> veces.</p>
+      <input id="number" type="number"></input>
+      <button id="newnumber">Creo que es este número</button>
+    </section>
   </body>
 </html>

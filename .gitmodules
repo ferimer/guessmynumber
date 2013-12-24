@@ -1,0 +1,3 @@
+[submodule "css/buildingblocks"]
+	path = css/buildingblocks
+	url = https://github.com/buildingfirefoxos/Building-Blocks.git
