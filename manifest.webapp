@@ -1,0 +1,19 @@
+{
+  "name": "Guess My Number",
+  "description": "Guess my number",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Fernando Rodríguez Sela - Ferimer, Servicios informaticos",
+    "url": "https://github.com/ferimer/guessnumber"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Guess My Number",
+      "description": "Guess my number"
+    },
+    "es-SP": {
+      "name": "Adivina mi número",
+      "description": "Adivina el número que estoy pensando"
+    }
+  }
+}

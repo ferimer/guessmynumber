@@ -1,0 +1,21 @@
+<!doctype html5>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <title>Guess my number</title>
+    <script defer src="js/guessnumber.js"></script>
+    <script defer src="js/uimanagement.js"></script>
+  </head>
+  <body>
+    <h1>Guess my number</h1>
+    <p>I'm thinking a number between
+      <span id="min"></span> and <span id="max"></span>.
+    </p>
+    <p><b id="result"></b></p>
+    <p>You tried it <span id="tries"></span> times.</p>
+    <input id="number" type="number"></input>
+    <button id="newnumber">I guess this number</button>
+    <button id="newgame">Start new game</button>
+  </body>
+</html>
